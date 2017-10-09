@@ -5,6 +5,7 @@ install: npm install
 script:
   - npm run build
 before_deploy:
+  - ./deploy.sh
   - cd release
 deploy:
   - provider: npm
