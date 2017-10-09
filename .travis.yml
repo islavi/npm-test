@@ -1,9 +1,11 @@
 language: node_js
 node_js:
-- 6
+  - 6
 install: npm install
 script:
-- npm run build
+  - npm run build
+before_deploy:
+  - cd release
 deploy:
   - provider: npm
     email: israel.lavi@gmail.com
