@@ -8,6 +8,7 @@ deploy:
   - provider: npm
     email: israel.lavi@gmail.com
     api_key: $NPM_TOKEN
+    skip_cleanup: true
     on:
       tags: true
-      repo: islavi/ng2-component-lab
+      repo: islavi/npm-test
