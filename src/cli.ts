@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-console.log("------------------ 1 ------------------------");
+console.log("------------------ 1111 ------------------------");
 
 import * as chalk from 'chalk';
 import { startServer } from './server';
