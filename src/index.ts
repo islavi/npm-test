@@ -1,3 +1,4 @@
+console.log("------------------ 3 ------------------------");
 // vendors
 import 'core-js';
 import 'zone.js';
@@ -6,6 +7,8 @@ import 'reflect-metadata';
 import { Experiment, ExperimentCase } from './frontend/models/experiment';
 import { Lab } from './frontend/models/lab';
 import { bootstrap } from './frontend/bootstrap';
+
+console.log("------------------ 4 ------------------------");
 
 export interface CaseConfig {
   context?: any;

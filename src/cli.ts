@@ -1,4 +1,7 @@
 #!/usr/bin/env node
+
+console.log("------------------ 1 ------------------------");
+
 import * as chalk from 'chalk';
 import { startServer } from './server';
 import { buildServer } from './build';
@@ -6,7 +9,7 @@ const Liftoff = require('liftoff');
 const minimist = require('minimist');
 const interpret = require('interpret');
 
-console.log("------------------ 1 ------------------------");
+console.log("------------------ 2 ------------------------");
 
 const args = minimist(process.argv.slice(2));
 
